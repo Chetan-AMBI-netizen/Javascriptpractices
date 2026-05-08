@@ -110,18 +110,50 @@ console.log(grade);
 
 let eligibility = age >= 18 ? "you are eligible to lead" : "you are not eligible to lead";
 console.log(eligibility);
+for(let a = 1; a<=10; a++){
+    console.log("i = ",a);
+    
+}
+AA = 10;
+while(AA<=20){
+    console.log("AA = ",AA);
+    AA++;
+}
+X = "hello buddies";
+for(let i = 200; i>X.length; i--){
+    console.log(X);
+}
+C = 10;
+do{
+    console.log("welcome to my profile role");
+    C--;
+
+} while(C>1);
+const fruits = ["apple","banana","grapes","orange"];
+for (fruit of fruits){
+    console.log(fruit);
+}
+const people = {
+    name :"chetan",
+    age : 21,
+    role:"softwareengineer",
+
+}
+for ( i in  people){
+    console.log(i, ':',people[i]);
+}
 
 
-let num = prompt("enter a number: ");
+
+
+/*let num = prompt("enter a number: ");
     if (num % 5 === 0){
         console.log(num, "is multiple of 5");
   }
   else{
     console.log(num,"is not a multiple of 5");
   }
-  console.log("hello buddies");
-
-  
+ */
 
 
 
