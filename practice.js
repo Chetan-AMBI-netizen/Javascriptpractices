@@ -119,6 +119,7 @@ let num = prompt("enter a number: ");
   else{
     console.log(num,"is not a multiple of 5");
   }
+  console.log("hello buddies");
 
   
 
