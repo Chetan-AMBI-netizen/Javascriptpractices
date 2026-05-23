@@ -7,6 +7,7 @@ I'M daily contributing to this repository because
 it's  my Web developmemt learning journey
 to maintaining a  my consistency work  to publicly.
 practices on this repository DAILY
+FILE CONTAINS:- the project files are contains seperate {.js} files, the {practice.js} contains a practice on each concepts..
  //CONCEPTS//:-
  1) syntax
  2) variables
