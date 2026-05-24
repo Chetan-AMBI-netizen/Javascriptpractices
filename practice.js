@@ -180,9 +180,18 @@ for ( let i=0; i<mix.length; i++){
     console.log(mix[i]);
 }
 for (let value of mix){
-    console.log(value);
-}
+    console.log(value); //same value printed like a above for loop//
 
+}
+const users = [
+    {name: "asthonall", income:2500000},
+    {name : "indian asthonall", income:1000000},
+];
+const income = users.map(user => user.income);
+console.log(income);
+console.log(users[0]); // asthonall details,object//
+console.log(users[1]);// indian  asthonall, object// 
+console.log(users); // both details with prototype is:- array(0)
 
 
 
