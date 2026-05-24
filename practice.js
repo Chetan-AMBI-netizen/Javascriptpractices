@@ -2,7 +2,7 @@
 
 //let,var,const//
 //datatypes N,S,B,NUL,UND,SYMB,BIGI//
-Name = "chetan";
+/*Name = "chetan";
 ishuman = true;
 older = null;
 currency = Symbol("$chetan");
@@ -154,8 +154,34 @@ for ( i in  people){
     console.log(num,"is not a multiple of 5");
   }
  */
+//arrays//
+let items = ["apple","banana","citrus","dragon", "egg"];
+let mix = ["chetan",2,2.5,true,null,undefined];
+console.log(mix);
+console.log(items[0]);
+console.log(items[2]);
+console.log(items[1]);
+console.log(items[items.length-1]);
+items[1] = 2;
+console.log(items); // modified//
 
-
+mix.push(25); // push used to add a last element//
+console.log("last element is added i.e:-",mix);
+items.pop(); // last element deleted like a popped//
+console.log(items);
+mix.shift();// first element deleted//
+console.log(mix); // first element deleted//
+items.unshift("CHETAN"); // first element added //
+console.log(items);
+for ( let i=0; i<items.length; i++){
+    console.log(items[i]);
+}
+for ( let i=0; i<mix.length; i++){
+    console.log(mix[i]);
+}
+for (let value of mix){
+    console.log(value);
+}
 
 
 
