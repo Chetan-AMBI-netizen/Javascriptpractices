@@ -14,7 +14,8 @@ const product = {
     offer : '5%',
     rating : 7.0002,
     isdeal : true
-}
+};
+
 console.log(product)
 product.pname = "jel pen";
 product.price = product.price + 29 ;
