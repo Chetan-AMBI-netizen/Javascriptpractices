@@ -2,7 +2,7 @@
 
 //let,var,const//
 //datatypes N,S,B,NUL,UND,SYMB,BIGI//
-/*Name = "chetan";
+Name = "chetan";
 ishuman = true;
 older = null;
 currency = Symbol("$chetan");
@@ -68,6 +68,7 @@ product.price = product.price + 29 ;
   console.log(cc);
    console.log(typeof(cc));  
 }
+
 {
 console.log("50"+5);
 console.log("10"-4);
@@ -128,7 +129,7 @@ C = 10;
 do{
     console.log("welcome to my profile role");
     C--;
-
+ 
 } while(C>1);
 const fruits = ["apple","banana","grapes","orange"];
 for (fruit of fruits){
