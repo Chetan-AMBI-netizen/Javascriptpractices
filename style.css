@@ -5,5 +5,6 @@ body{
 button{
     background-position: center;
     background-color: rgb(147, 147, 245);
+    cursor:pointer;
     color:white;
 }
