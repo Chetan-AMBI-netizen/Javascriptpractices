@@ -1,2 +1,2 @@
 console.log("hello sharu")
-alert("hello god")
+alert("hey stop!")
